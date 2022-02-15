@@ -1,0 +1,99 @@
+#title{
+  background-color: #74959A;
+  padding: 70px 50px;
+}
+h1{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  color: white;
+}
+a{
+  color: black;
+}
+.button{
+  margin: 2.5px;
+}
+.title-image{
+  transform: rotate(20deg);
+  width: 55%;
+  margin-left: 20px;
+  margin-top: 25px;
+  position: absolute;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#features{
+  padding: 8% 15%;
+  text-align: center;
+  font-family: Montserrat;
+  background-color: #495371;
+  color: #000;
+  line-height: 1;
+  position: relative;
+  z-index: 1
+}
+i:hover{
+  color: red;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #74959A;
+  color: #fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+}
+
+#press{
+  background-color:#74959A;
+  text-align: center;;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width: 10%;
+  margin: 10px 30px 10px;
+}
+
+/* price */
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* call-to-action */
+#cta{
+  background-color: #74959A;
+  text-align: center;
+  margin: 0;
+  padding: 7% 15%;
+}
+h3{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
